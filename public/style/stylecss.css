@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body{
+    font-family: "Poppins";
+}
+
+.navbar {
+    /* height: 70px; */
+    background-color: #008DDA;
+}
+
+.box {
+    padding-top: 130px;
+    padding-bottom: 120px;
+    height: 100%;
+    background-color: #008DDA;
+    color: white;
+}
+
+/* .heading-2,
+.heading-1 {
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+} */
+
+/* .col{
+    background-color: yellow;
+} */
+
+.logoLatahzan {
+    width: 300px;
+    height: 300px;
+}
+
+.deskripsi {
+    margin-top: 70px;
+}
+
+.btn-daftar {
+    background-color: #ACE2E1;
+}
+
+.btn-daftar:hover {
+    background-color: #FFFF80;
+    color: black;
+}
+
+.btn-login{
+    background-color: #FFFF80;
+}
+
+.btn-login:hover {
+    background-color: #F7EEDD;
+    color: black;
+}
+
+.btn-keunggulan {
+    background-color: #1C1678;
+}
+
+.keunggulan {
+    width: 80px;
+}
+
+footer {
+    background-color: #0099ff;
+    /* padding: 20px; */
+}
+
+footer img {
+    width: 200px;
+}
+  
+
+@media screen and (max-width: 1000px) {
+    
+    .box{
+        padding-top: 80px;
+        padding-bottom: 60px;
+        height: 100%;
+    }
+
+    .heading-2,
+    .heading-1 {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 25px;
+    }
+    /* .heading-1 {
+        text-align: center;
+        font-size: 25px;
+    } */
+
+    .deskripsi {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .keunggulan {
+        width: 50px;
+    }
+
+    .text-keunggulan {
+        text-align: center;
+    }
+
+    .flex-responsive {
+        flex-direction: column;
+    }
+
+    .box-yt {
+        width: 80%;
+        height: 200px;
+    }
+
+
+}
