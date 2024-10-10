@@ -19,6 +19,7 @@ Untuk mendapatkan salinan proyek di lokal, jalankan perintah berikut:
 
 ```bash
 git clone https://github.com/PutraWiraG/Latahzan_Edu.git
+```bash
 
 ### 2. Composer Install
 
